@@ -1,0 +1,86 @@
+Build a **production-quality AI property search web app inspired by PolyHome** with a **premium startup-level UI** designed to impress hackathon evaluators.
+
+### Core Concept
+
+Create a **single continuous AI chat interface** (like ChatGPT/Perplexity) where all prompts and responses appear in **one persistent conversation thread**.
+
+Support:
+
+* **Text input**
+* **Voice input (speech-to-text)** via microphone button
+* **AI voice responses (text-to-speech)**
+
+Interaction should feel **smooth, modern, and professional**.
+
+### UI Design
+
+Use a **clean modern design inspired by Airbnb, Apple, and Linear**:
+
+* Minimal layout
+* Strong visual hierarchy
+* Premium typography
+* Soft shadows / glass UI
+* Smooth micro-interactions
+
+### Layout
+
+* **Centered chat container**
+* **Scrollable message thread**
+* **Sticky search input at bottom**
+* **Auto-scroll for new messages**
+
+### Property Results
+
+When AI returns listings, show **premium property cards in a responsive grid below the message**.
+
+Each **PropertyCard** must include:
+
+* **Price in ₹ (Indian Rupees)**
+* Location
+* Key details: BHK, area (sq ft), carpet area, floor, total floors, property type, furnishing status, parking, bathrooms, balconies, building age, facing direction, amenities (gym, lift, security, power backup, garden, clubhouse), nearby landmarks, possession status
+* Short description
+* High-quality images (**exterior, hall, kitchen, bedroom, parking**)
+
+### Image Carousel
+
+Every card must include a **carousel with**:
+
+* Left / right arrows
+* Mobile swipe support
+* Smooth slide animation
+* Lazy-loaded images
+
+### UX Polish
+
+* Hover elevation on cards
+* Skeleton loading states
+* Smooth fade/slide animations
+* **Responsive CSS grid (auto-fit / minmax)**
+* Works perfectly on **desktop, tablet, and mobile**
+* **Dark / Light mode toggle**
+
+### Tech Stack
+
+Frontend:
+
+* **Next.js (React)**
+* **Tailwind CSS**
+* Component architecture
+
+Core Components:
+ChatContainer
+ChatMessage
+SearchInput
+PropertyGrid
+PropertyCard
+ImageCarousel
+
+Backend:
+
+* **Node.js (Express) API**
+* Accept natural language property queries
+* Return **structured JSON listings**
+
+### Goal
+
+Build a **real AI real-estate assistant experience** with chat-based search, responsive layout, ₹ pricing, realistic property images, voice interaction, and a **premium polished UI that creates a strong wow factor for hackathon judges**.
